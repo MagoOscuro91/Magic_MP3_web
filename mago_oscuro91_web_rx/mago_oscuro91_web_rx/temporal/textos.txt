@@ -1,0 +1,115 @@
+### Index ###
+
+MAGIC MP3
+
+Creado con reflex y un solo lenguaje de programacion PYTHON!
+
+
+### Herramienta ###
+
+HERRAMIENTA
+Una herramienta desarrollada por mi gratis y de codigo abierto.
+
+DESCRIPCION
+Una app de escritorio para windows 10 con la que podras descargar mediante una url de youtube
+un video en formato mp4/mp3 o un clip mp4/mp3 de un punto a otro a tu escritorio facil y sin meterte a ninguna pagina con anuncios etc..
+Un dia creando una app de escritorio quise personalizar la parte frontend, buscando sonidos para mis botones
+seme ocurrio la idea de desarrollar algo como ejercicio que me ayudara en este campo para mi comodidad.
+
+INSTRUCCIONES
+1 Abrimos la app en modo administrador.
+2 Pegamos la url de youtube en el campo indicado.
+3 En la parte inferior a la izquierda tenemos dos botones mp3 o mp4 para descargar.
+4 Para clip es necesario indicar en segundos el principio del mismo y el final en los campos indicados,
+en la parte inferior a la derecha tenemos dos botones clip mp3 o clip mp4 para descargar.
+5 Tu archivo deseado se descargara en tu escritorio cuanto mas largo sea el video mas tarda.
+
+
+### Plan de estudio ###
+
+AUTOR 
+
+MagoOscuro91
+
+OBJETIVO 
+
+aprender a programar en un lenguaje de programacion de manera autodidacta y gratis
+
+PLAN DE ESTUDIO
+
+Este es el plan de estudio que a mi me a ayudado a de no saber ni ingles practicamente ni de programacion 
+a diseñar esta web con un framework nuevo como reflex en 6 meses, espero que ati tambien te ayude. Este plan me a servido a mi 
+pero a ti puede que no. En internet existe informacion mejor seguro, esto es una opinion personal nada mas.
+
+1 Elige un lenguaje amigable de programacion tranquilamente, investiga en base a lo que quieres acavar creando a corto plazo 
+por que a programar se aprende programando y peleandote con tu codigo, cuanto mejor base tengas mas facil te sera luego aprender
+o programar algo nuevo por lo que siempre recomiendo estudiar un grado medio o superior de desarollo de aplicaciones multiplataforma o similiar.
+Pero si es cierto que cada vez mas las empresas buscan gente que demuestre sus habilidades con proyectos, trabajos etc y no que solo tengan un titulo universitario.
+En internet hoy en dia tenemos a personas maravillosas que regalan su tiempo y conocimiento como mouredev, midudev, holamundo(nicolas), etc.
+Tenemos la ia que bien utilizada puedes aprender mucho mas facil y rapido sobre la marcha, mi manera de usarla es para ver ejemplos de algoritmos, estructuras,
+librerias, etc y si no entiendo una linea le pido que me la explique pero que no me de la solucion.Mi lenguaje fue python por gusto personal y por recomendaciones generales
+y lo amigable que parecia comparado con c.Tambien recomiendo el curso cs50x de harvad gratis para ir cogiendo base poco a poco.
+
+2 Tenemos el lenguaje despues de haberlo pensado bien en mi caso python, ahora es el momento de buscar contenido gratuito para tu lenguaje.
+Estos son los cursos en orden que yo ize:
+* Ultimate python de holamundo(nicolas) las 6h gratuitas de su canal, con este aprendi de 0 rapido y poco a poco.
+* Python para principiantes mouredev, con este repase y asente muchos conceptos.
+* python intermedio mouredev, con este ya me empeze a soltar ya hacia mis pruebas para ideas de apps que seme ocurrian.
+*
+*
+*
+
+3 Necesitas un horario y ser disciplinado con el, al principio al estar motivados vamos a estar bien pero la motivacion no dura eternamente la disciplina si.
+Como estoy acostumbrado a trabajar 8h 5 dias a la semana, decidi usar ese tiempo para ocuparme de las tareas del hogar, estudiar, entrenar y programar con la idea de
+acavar programando esas 8h en mi teletrabajo durmiendo 8h y en las 8h restantes ocuparme de tareas del hogar ejercicio y ocio.
+El dia tiene 24h, 8h para el grupo anterior, 8h son sagradas para dormir necesitas descansar para tener mejor rendimiento al dia siguiente, 8h de tiempo libre es super importante
+desconectar el cerebro, es un musculo que tambien se cansa y tenemos que cuidar su salud.
+El dia que no te apetezca que va a pasar te pones a repasar videos de cursos o material ya echo tranquilamente y sin agobios, el caso es ser disciplinado con tu horario.
+
+4 Cuidar nuestro cuerpo, al pasar tantas horas sentado nuestro cuerpo se deteriora.
+mantener un orden en casa y nuestra zona de trabajo.
+*Comer bien
+*dormir 8h
+*1h de ejercicio 5 dias a la semana 
+*3h o 5h de ocio diarias
+*2h tareas en general
+
+
+### AUTOR ###
+
+DESAROLLADO POR FIRMA
+
+Mi nombre es Jonathan B.V conocido como MagoOscuro91 en internet.
+Empeze a estudiar de manera independiente hace 6 meses, despues de 17 años que deje la E.S.O para ponerme a trabajar en la obra.
+6 meses despues partiendo de 0 y un ingles muy basico tengo el placer de presentarme a este concurso de mouredev "hackaton reflex web 2024".
+Con esta web de codigo abierto en la que ofrezco a la comunidad de desarolladores una herramienta desarollada por mi de codigo abierto que descarga 
+mediante una url de youtube un clip mp3/mp4 o el video completo en formato mp3/mp4 pensando en los desarolladores frontend que necesitan sonidos o clips.
+Mi plan de estudio autodidacta gratis que a dia de hoy sigo disciplinadamente.
+# Piedra papel o tijera para decidir tareas de programacion en grupo o como quieras usarlo.
+
+HISTORIA
+
+Siempre e sido un gran fan de los videojuegos y la tecnologia, tube ordenador en casa desde los 9 años gracias
+amis padres y siempre tube curiosidad de como funcionaban los juegos mods internet sistemas operativos etc..
+En la pandemia me quede sin trabajo y me puse a aprender diseño 3d dandome cuenta que aunque en la obra estaba bien, 
+lo mio era estar horas delante de una pantalla. Me lo pasaba muy bien cuando algo me salia bien despues de horas, sentia
+una sensacion agradable al resolver problemas y avanzar, gane un poco de dinero con el 3d y era mas feliz asi.
+Empeze a pensar cual seria para mi el mejor teletrabajo y se cruzo conmigo la programacion por primera vez.
+Buscando contenido gratis en internet me cruze con profesores como ami me gusta llamar como mouredev holamundo (nicolas) y midudev.
+Despues de 6 meses haciendo cursos gratuitos escribiendo cada linea y comentando su explicacion e sido capaz de crear esta web con un
+framework nuevo como es reflex y ayudar a la comunidad con un script python sencillo.
+
+#
+un dia creando una app de escritorio quise personalizar la parte frontend, buscando sonidos para mis botones
+seme ocurrio la idea de desarrollar algo como ejercicio que me ayudara en este campo para mi comodidad.
+
+
+Mi ultimo trabajo
+
+Al terminar el curso de 3h python web de mouredev en la que se desarolla adeviento_web como trabajo final copie una web ya echa de una empresa
+de mi pueblo para ver las posibilidades de reflex y practicar lo aprendido.
+
+VIDEO
+
+No pongo el codigo por que es propiedad intelectual y yo lo hice de manera la palabra esta sin animo de lucro o algo de educativo.
+

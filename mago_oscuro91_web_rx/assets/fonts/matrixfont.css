@@ -1,0 +1,10 @@
+@font-face {
+    font-family: matrix;
+    src: url("/fonts/matrix.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: matrix;
+    font-weight: bold;
+    src: url("/fonts/matrix.ttf") format("truetype");
+}

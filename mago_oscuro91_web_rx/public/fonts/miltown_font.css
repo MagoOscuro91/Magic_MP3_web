@@ -1,0 +1,10 @@
+@font-face {
+    font-family: miltown_;
+    src: url("/fonts/miltown_.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: miltown_;
+    font-weight: bold;
+    src: url("/fonts/miltown_.ttf") format("truetype");
+}

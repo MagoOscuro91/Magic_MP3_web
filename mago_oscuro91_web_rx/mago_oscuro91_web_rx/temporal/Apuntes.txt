@@ -1,0 +1,99 @@
+### Enlaces ###
+
+Enlace al video tutorial de nuestro amigo MoureDevbyBraisMoure.
+https://www.youtube.com/watch?v=2u7JlBEavx0&t=2773s&ab_channel=MoureDevbyBraisMoure
+
+Esta es la web de reflex con toda la documentacion, devemos empezar por get started and tutorial.
+https://reflex.dev
+
+Reflex es un framework para desarollar apps web con front , back y hosting en python puro.Utiliza fastAPI para back.
+Es una alternativa a jango y flask (otros frameworks conocidos para el desarollo web con python).
+https://reflex.dev/docs/getting-started/introduction/
+
+En su repositorio de github podemos encontrar ejemplos de codigo como referencia (Para ver el codigo es en github).
+https://github.com/reflex-dev/reflex
+
+Preguntas frecuentes y blog para estar al dia.
+https://reflex.dev/faq/ y https://reflex.dev/blog/ 
+
+### Apuntes ###
+
+Lo primero es crear un entorno virtual desde una terminal para tener un control de librerias y su version actual.
+Venv is the standard option (venv es la opcion standard), un Virtual Environment nos ayuda a gestionar dependencias.
+https://reflex.dev/docs/getting-started/installation/
+
+Para crear un entorno virtual con venv tenemos que crear un nuevo directorio (carpeta) y entrar desde una terminal.
+Error No module named venv. Esto es un error de que no tenemos instalado venv en el sistema. Por ejemplo, en Ubuntu Linux, ejecute sudo apt-get install python3-venv.
+https://docs.python.org/3/library/venv.html
+
+COMANDOS:
+
+# Este comando 1 es para crear la carpeta en la ruta actual de la terminal, my_app_name seria el nombre de la misma.
+1 mkdir my_app_name  # cambiamos my_app_name por el nombre del directorio (carpeta) deseado para el proyecto.
+2 cd my_app_name  # comando para entrar al directorio.
+3 python -m venv .venv  # comando para configurar el virtual envviroment. # python3 -m venv .venv para linux.Esto tarda unos segundos y no notifica.
+4 .venv\Scripts\activate # source .venv/bin/activate (linux) # comando para activarlo (si esta activo en la terminal sale venv delante siempre).
+deactivate  # comando para desactivarlo.
+5 pip install reflex # Para instalar reflex ultima version en nuestro entorno virtual ya activo.
+5.5 pip install reflex==0.3.2 # Para instalar reflex version especifica en nuestro entorno virtual ya activo.
+6 python.exe -m pip install --upgrade pip  # Para actualizar el gestor de paketes pip. # python.exe -m pip install --upgrade pip # Este es por si no funciona.
+reflex --version # Para ver si estamos con la ultima version del framework.
+pip install --upgrade reflex  # Para actualizar reflex.
+pip install --upgrade reflex==0.3.2 # Para usar una version concreta de reflex esta es la del tutorial de 3h.
+7 reflex init  # para iniciar reflex compilando nuestro proyecto, nos da 3 opciones plantilla en blanco queremos (opcion 0).
+code .  # Para abir vscode una vez termine el proceso. Podemos abrir el proyecto desde nuestro editor de codigo favorito.
+8 .venv\Scripts\activate  # Para activar el entorno virtual en la nueva terminal.
+
+En este punto ya podemos usar la terminal de vscode siempre y cuando estemos dentro de nuestro Virtual Environment.
+
+1 reflex run  # Para lanzar reflex en servidor local.
+2 Control c en la terminal para parar el servidor.
+3 Si tenemos problemas para el entorno virtual en vscode abrimos como admin una terminal de porwershell y introducimos:
+Set-ExecutionPolicy Unrestricted
+Una vez terminemos de trabajar con la terminal de vscode abrimos powershell como admin otra vez y introducimos:
+Set-ExecutionPolicy Restricted
+
+Si entramos al localhost en el navegador nos dice "empieza editando el fichero my_app_name.py".
+Empezamos picando import reflex as rx y from rxconfig import config, configuramos app = rx.App() y app.add_page() .
+Creamos la estructura del proyecto DIR my_app_name carpeta de views, components, styles y un fichero constants.py.
+Creamos ficheros LICENSE.txt y README.md en DIR MY_APP_NAME.
+Views(navbar, header, footer).Styles(colors, fonts, styles).Components(componentes que nosotros creamos como botones link_icon etc).
+
+Estructura del proyecto.
+https://reflex.dev/docs/getting-started/project-structure/
+
+Configuracion del proyecto.
+https://reflex.dev/docs/getting-started/configuration/
+
+Con estas url tenemos la informacion necesaria para cambiar el nombre de la app, ficheros, el puerto etc y empezar a picar codigo.
+
+### NOTAS DEL CURSO 3H REFLEX MOUREDEV ###
+
+#T# Me e estado mareando 2h y no ahi version inferior a la 0.4.0 que no me de algun tipo de error.
+#5# Para cambiar la version de reflex se mete en el fichero "requeriments" mira la version y cambia la version por la que el quiere usar.
+#5# Para usar una version de reflex especifica en la terminal comando: pip install --upgrade reflex==0.3.2 la 0.3.2 es la que pone moure, el tenia la 0.3.4 yo tengo la reflex==0.4.7 .
+#5# reflex --version .Para ver que version tenemos de reflex.
+
+#1# ESTRUCTURA DEL PROYECTO
+#1# Esto es como lo estructura moure pero puede ser como queramos.dir ADEVIENTO_WEB/adeviento_web (este seria el nombre de nuestro proyecto (my_app_name)).
+#1# 1 1 dir para "components"
+#1# 2 1 dir para "styles" con 1 fichero.py para estilar la pagina "styles", 1 para los colores "colors" 1 para fuentes "fonts".
+#1# 3 1 dir para "views" (componentes visuales grandes)
+#1# 4 (opcional demomento) 1 fichero README.md y 1 fichero LICENSE en el dir principal ADEVIENTO_WEB yo me e descargado los de moure como ejemplo.
+#1# 5 Favicon en assets sustituimos favicon.ico por el nuevo con el mismo nombre y extension de 48x48 pagina para redimensionar imagenes https://www.resizepixel.com/es/resize-image/ (si no tienes programa).
+
+                        ### Como leer mis comentarios ###
+
+#P# Personal, #N# Notas, #T# Tarea, #1# Capitulo 1 en adelante, #E# Linea de codigo experimental.
+
+                                    ### NOTAS ###
+
+#N# Un vstack de reflex es para poner cosas de arriba para abajo.
+#N# Un hstack de reflex es para poner cosas de izquierda a derecha.
+#N# Moure cuando no le cojia el color rojo añadio "! important" asi ACCENT = "#EA5940" | ACCENT = "#EA5940 ! important".
+
+                                    ### Paginas ###
+
+#N# Para tener varias paginas vamos a crear un dir en mi_app_name que se llame pages y pasamos el index al fichero index.py.
+#N# Encima de nuestro componente principal para enroutar @rx.page(route="", title="", etc) para index route="" no es necesario.
+#N# Ahora nuestra carpeta de assets no es accesible por eso para la ruta de los assets vamos a añadir "/nombre_asset" (antes "nombre_asset").

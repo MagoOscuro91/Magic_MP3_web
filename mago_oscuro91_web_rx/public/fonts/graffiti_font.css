@@ -1,0 +1,10 @@
+@font-face {
+    font-family: graffiti;
+    src: url("/fonts/graffiti.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: graffiti;
+    font-weight: bold;
+    src: url("/fonts/graffiti.ttf") format("truetype");
+}

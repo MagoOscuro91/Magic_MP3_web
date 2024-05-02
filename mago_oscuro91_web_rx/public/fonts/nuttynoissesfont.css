@@ -1,0 +1,10 @@
+@font-face {
+    font-family: nuttynoisses;
+    src: url("/fonts/nuttynoisses.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: nuttynoisses;
+    font-weight: bold;
+    src: url("/fonts/nuttynoisses.ttf") format("truetype");
+}
