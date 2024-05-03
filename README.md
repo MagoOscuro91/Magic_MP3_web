@@ -18,7 +18,7 @@ si cambiamos esto tambien tenemos que cambiar el orden no sino los textos de ter
 Las fotos hacer nuevas de index.IMPORTANTE despues de mover las demas cosas etc esto mejor al final.
 HERRANIENTA ahora es la tercera pagina y desarrollador la primera.
 IMPORTANTE mover el apartado descargar arriva de la imagen en la pagina Herramienta y centrar la imagen un poco reducida.
-LO MAS IMPORTANT arreglar la ortografia.
+LO MAS IMPORTANTE arreglar la ortografia.
 Hacer un pelin mas grande el icono de la barra de navegacion descargar.
 Ajustar textos.
 Ajustar plan de estudio cabezera a enmedio.
