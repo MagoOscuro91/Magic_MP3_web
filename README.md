@@ -12,7 +12,7 @@ En la proxima actualización dentro de horas o 1 dia se aplicaran estos cambios:
 
 En la barra de nav donde pone Hola neo... solo en la pagina plan -> Wake up, Neo... Despierta, Neo...
 IMPORTANTE poner en los cursos de moure que la descricion sea como la de nicolas.
-IMPORTANTE poner un mensaje al poner el raton encima de los iconos del navbar que no tienen nombre.Poner el enlace a cada pagina para tontos tanbien en index.
+IMPORTANTE poner un mensaje al poner el raton encima de los iconos del navbar que no tienen nombre.Poner el enlace a cada pagina para que asta un niño lo entendiera tanbien en index.
 IMPORTANTE cambiar el boton de herramienta AZUL a mano de morfeo plan de estudio ROJA.
 si cambiamos esto tambien tenemos que cambiar el orden no sino los textos de tercera pagina tal cual.
 Las fotos hacer nuevas de index.IMPORTANTE despues de mover las demas cosas etc esto mejor al final.
