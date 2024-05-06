@@ -44,7 +44,7 @@ def index_view() -> rx.Component:
                 size="8"
             ),
             rx.image(
-                src="/herramienta_movil_index.png",
+                src="/herramienta_movil.png",
                 alt="La foto página herramienta en vista móvil",
                 border_radius="15px 50px",
                 border="5px solid #555"
@@ -60,7 +60,7 @@ def index_view() -> rx.Component:
                 size="8"
             ),
             rx.image(
-                src="/plan_movil_index.png",
+                src="/plan_movil.png",
                 alt="La foto página plan en vista móvil",
                 border_radius="15px 50px",
                 border="5px solid #555"
@@ -74,7 +74,7 @@ def index_view() -> rx.Component:
                 size="8"
             ),
             rx.image(
-                src="/desarrollador_movil_index_2.png",
+                src="/desarrollador_movil.png",
                 alt="La foto página desarrollador en vista móvil",
                 border_radius="15px 50px",
                 border="5px solid #555"
@@ -87,7 +87,7 @@ def index_view() -> rx.Component:
                 size="8"
             ),
             rx.image(
-                src="/colacao_movil_index.png",
+                src="/colacao_movil.png",
                 alt="La foto página desarrollador en vista móvil",
                 border_radius="15px 50px",
                 border="5px solid #555"

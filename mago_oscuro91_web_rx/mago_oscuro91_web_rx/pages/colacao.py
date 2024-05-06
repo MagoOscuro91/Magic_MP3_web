@@ -21,7 +21,7 @@ def herramienta() -> rx.Component:
     return rx.box(
         dark_mode(),
         banner(),
-        navbar("Hola neo..."),
+        navbar("Hola Neo..."),
         rx.center( 
             rx.vstack(
                 colacao_view(),
