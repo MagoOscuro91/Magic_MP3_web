@@ -2,7 +2,6 @@ import reflex as rx
 import datetime
 import mago_oscuro91_web_rx.constants as constants
 import mago_oscuro91_web_rx.styles.styles as styles
-# from mago_oscuro91_web_rx.styles.colors import Colors
 
 
 def author() -> rx.Component:
@@ -29,8 +28,8 @@ def author() -> rx.Component:
                     "En internet me conocen como ",
                     rx.link(
                         "@MagoOscuro91",
-                        href=constants.MY_GITHUB,
-                        # color=TextColor.ACCENT.value,
+                        href=constants.MI_YOUTUBE,
+                        is_external=True,
                         font_size="1em"
                     )   
                 ),
@@ -42,7 +41,8 @@ def author() -> rx.Component:
             flex_direction=["column", "column", "row", "row", "row"]
         ),
         style=styles.max_width_style,
-        margin_bottom="30px"
+        margin_bottom="30px",
+        margin_top="15px",
     )
 
 

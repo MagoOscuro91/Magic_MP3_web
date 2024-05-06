@@ -4,7 +4,7 @@ from mago_oscuro91_web_rx.views.footer import footer
 from mago_oscuro91_web_rx.views.navbar import navbar
 from mago_oscuro91_web_rx.views.navbar2 import navbar2
 from mago_oscuro91_web_rx.views.dark_mode import dark_mode
-from mago_oscuro91_web_rx.views.plan_view import plan_view
+from mago_oscuro91_web_rx.views.plan_view import plan_view, index_plan_head
 from mago_oscuro91_web_rx.views.banner import banner
 from mago_oscuro91_web_rx.views.author import author
 from mago_oscuro91_web_rx.styles.colors import Colors
@@ -24,6 +24,7 @@ def herramienta() -> rx.Component:
         navbar("Wake up, Neo..."),
         rx.center( 
             rx.vstack(
+                index_plan_head(),
                 plan_view(),
                 author(),
                 width="100%",

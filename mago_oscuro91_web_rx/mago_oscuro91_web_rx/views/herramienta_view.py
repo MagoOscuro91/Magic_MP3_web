@@ -4,24 +4,37 @@ from mago_oscuro91_web_rx.styles import styles
 from mago_oscuro91_web_rx.components import ant_components
 
 
+def herramienta_center() -> rx.Component:
+    return rx.vstack(
+        rx.spacer(weidth="100%"),
+        rx.heading(
+            "HERRAMIENTA",
+            font_size="300%",
+            size="8",
+            margin_top="35px"
+        ),
+        rx.image(
+            src="/herramienta_magicmp3_foto.png",
+            alt="La imagen de la herramienta magic mp3",
+            border_radius="15px 50px",
+            border="5px solid #555",
+            width="85%",
+            height="auto",
+            margin_top="35px",
+            margin_bottom="10px"
+        ),
+        rx.text(
+            "Una herramienta desarrollada por mi gratis y de código abierto.",
+            padding_top="5px"
+        ),
+        rx.spacer(weidth="100%"),
+        style=styles.max_width_style_center
+    )
+
+
 def herramienta_view() -> rx.Component:
     return rx.hstack(
         rx.vstack(
-            rx.heading(
-                "HERRAMIENTA",
-                font_size="300%",
-                size="8"
-            ),
-            rx.image(
-                src="/herramienta_magicmp3_foto.png",
-                alt="La imagen de la herramienta magic mp3",
-                border_radius="15px 50px",
-                border="5px solid #555"
-            ),
-            rx.text(
-                "Una herramienta desarrollada por mi gratis y de código abierto.",
-                padding_top="5px"
-            ),
             rx.heading(
                 "DESCARGAR",
                 size="8"
@@ -42,10 +55,12 @@ def herramienta_view() -> rx.Component:
             rx.link(
                 'Código en GitHub aquí  ',
                 ant_components.codeicon(),
+                is_external=True,
                 href=costants.GITHUB_MAGICMP3
             ),
             rx.heading(
-                "DESCRIPCIÓN",
+                "DESCRIPCION",
+                margin_top="25px",
                 size="8"
             ),
             rx.text(
@@ -55,6 +70,7 @@ def herramienta_view() -> rx.Component:
             ),
             rx.heading(
                 "INSTRUCCIONES",
+                margin_top="25px",
                 size="8"
             ),
             rx.text(
@@ -78,12 +94,14 @@ def herramienta_view() -> rx.Component:
             ),
             rx.heading(
                 "TUTORIAL",
+                margin_top="25px",
                 size="8"
             ),
             rx.video(
                 url=costants.TUTORIAL_MAGICMP3,
                 width="100%",
-                height="auto"
+                height="auto",
+                margin_bottom="25px"
             )
         ),
         padding_top="15px",

@@ -4,7 +4,7 @@ from mago_oscuro91_web_rx.views.footer import footer
 from mago_oscuro91_web_rx.views.navbar import navbar
 from mago_oscuro91_web_rx.views.navbar2 import navbar2
 from mago_oscuro91_web_rx.views.dark_mode import dark_mode
-from mago_oscuro91_web_rx.views.herramienta_view import herramienta_view
+from mago_oscuro91_web_rx.views.herramienta_view import herramienta_view, herramienta_center
 from mago_oscuro91_web_rx.views.banner import banner
 from mago_oscuro91_web_rx.views.author import author
 from mago_oscuro91_web_rx.styles.colors import Colors
@@ -24,6 +24,7 @@ def herramienta() -> rx.Component:
         navbar("Hola Neo..."),
         rx.center( 
             rx.vstack(
+                herramienta_center(),
                 herramienta_view(),
                 author(),
                 width="100%",

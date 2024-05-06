@@ -7,7 +7,7 @@ from mago_oscuro91_web_rx.views.navbar2 import navbar2
 from mago_oscuro91_web_rx.views.dark_mode import dark_mode
 from mago_oscuro91_web_rx.views.banner import banner
 from mago_oscuro91_web_rx.views.author import author
-from mago_oscuro91_web_rx.views.index_view import index_view, index_view_image
+from mago_oscuro91_web_rx.views.index_view import index_view_image, index_view_image_1
 
 
 @rx.page(
@@ -24,7 +24,7 @@ def index() -> rx.Component:
         rx.center( 
             rx.vstack(
                 index_view_image(),
-                index_view(),
+                index_view_image_1(),
                 author(),
                 width="100%",
                 spacing="4",

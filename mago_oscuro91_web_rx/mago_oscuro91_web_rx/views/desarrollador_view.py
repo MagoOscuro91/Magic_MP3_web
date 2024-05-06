@@ -4,6 +4,21 @@ from mago_oscuro91_web_rx.styles import styles
 from mago_oscuro91_web_rx.components import ant_components
 
 
+def desarrollador_view1() -> rx.Component:
+    return rx.vstack(
+        rx.spacer(weidth="100%"),
+        rx.heading(
+            "DESARROLLADOR",
+            font_size="250%",
+            margin_top="35px",
+            margin_bottom="15px",
+            size="9"
+        ),
+        rx.spacer(weidth="100%"),
+        style=styles.max_width_style_center
+    )
+
+
 def desarrollador_view3() -> rx.Component:
     return rx.hstack(
         rx.vstack(
@@ -18,6 +33,7 @@ def desarrollador_view3() -> rx.Component:
             ),
             rx.heading(
                 "HISTORIA",
+                margin_top="25px",
                 size="8"
             ),
             rx.text(
@@ -29,18 +45,22 @@ def desarrollador_view3() -> rx.Component:
                 Empecé a pensar cuál sería para mí el mejor teletrabajo y se cruzó conmigo la programación por primera vez.\
                 Buscando contenido gratis en internet me crucé con profesores como ami, me gusta llamar como mouredev hola mundo (Nicolás) y midudev.\
                 Después de 6 meses haciendo cursos gratuitos, escribiendo cada línea y comentando su explicación, he sido capaz de crear esta web con un\
-                Framework nuevo como es Reflex y ayudar a la comunidad con un script Python sencillo."
+                Framework nuevo como es Reflex y ayudar a la comunidad con un script Python sencillo.",
+                margin_top="10px",
             ),
             rx.heading(
-                "MI ÚLTIMO TRABAJO",
+                "MI ULTIMO TRABAJO",
+                margin_top="25px",
                 size="8"
             ),
             rx.text(
                 "Al terminar el curso de 3 h Python web de mouredev en la que se desarrolla adeviento_web como trabajo final copie una web ya echa de una empresa\
-                de mi pueblo para ver las posibilidades de Reflex y practicar lo aprendido."
+                de mi pueblo para ver las posibilidades de Reflex y practicar lo aprendido.",
+                margin_top="10px",
             ),
             rx.heading(
                 "VIDEO",
+                margin_top="25px",
                 size="8"
             ),
             rx.video(
@@ -50,24 +70,11 @@ def desarrollador_view3() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "No pongo el código por qué es propiedad intelectual (imagino) y yo lo hice de manera educativa."
+                "No pongo el código por qué es propiedad intelectual (imagino) y yo lo hice de manera educativa.",
+                margin_bottom="25px"
             )
         ),
         padding_bottom="15px",
-        style=styles.max_width_style
-    )
-
-
-def desarrollador_view1() -> rx.Component:
-    return rx.hstack(
-        rx.vstack(
-            rx.heading(
-                "DESARROLLADOR",
-                font_size="250%",
-                size="8"
-            )
-        ),
-        margin_top="25px",
         style=styles.max_width_style
     )
 
@@ -79,6 +86,7 @@ def desarrollador_view2() -> rx.Component:
             rx.heading(
                 "MagoOscuro91",
                 size="8",
+                margin_bottom="25px",
                 font_family="nuttynoisses"
             )
         ),

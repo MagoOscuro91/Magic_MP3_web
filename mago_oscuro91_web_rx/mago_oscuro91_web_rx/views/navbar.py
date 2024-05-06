@@ -38,15 +38,18 @@ def navbar(hola_neo) -> rx.Component:
                 weidth="100%"
             ),
             padding_top="5px",
+            margin_left="10px",
             weidth="100%"
         ),
         rx.spacer(),
         rx.link(
         ant_components.download_icon(
-                margin="2.5px",
+                margin_y="2.5px",
+                margin_rigt="2.5px",
                 padding_top="10px"
             ),
-            href=costants.GITHUB_DESCARGAR,
+            href=costants.GITHUB_MAGICMP3,
+            is_external=True,
             size="7"
         ),
         rx.link(
@@ -56,6 +59,7 @@ def navbar(hola_neo) -> rx.Component:
                 padding_top="11px"
             ),
             href=costants.PAGINA_REPO,
+            is_external=True,
             size="6"
         ),
         rx.avatar(
@@ -64,8 +68,8 @@ def navbar(hola_neo) -> rx.Component:
             src="/mago_toon_red_eyes.jpg",
             bg="",
             margin_y="5px",
-            margin_right="7.5px",
-            margin_LEFT="5px",
+            margin_right="5px",
+            margin_left="5px",
             border="4px",
             border_color="#00CC00"
         ),

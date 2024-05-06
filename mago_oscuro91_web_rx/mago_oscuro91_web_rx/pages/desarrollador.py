@@ -25,7 +25,6 @@ def herramienta() -> rx.Component:
         rx.center( 
             rx.vstack(
                 desarrollador_view1(),
-                author(),
                 desarrollador_view2(),
                 desarrollador_view3(),
                 width="100%",

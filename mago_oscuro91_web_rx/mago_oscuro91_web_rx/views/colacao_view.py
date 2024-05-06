@@ -10,7 +10,7 @@ def colacao_view() -> rx.Component:
         rx.vstack(
             rx.heading(
                 "Si quieres apoyarme puedes invitarme a un colacao.",
-                margin_y="10px"
+                margin_y="25px"
             ),
             rx.vstack(
                 rx.spacer(),
@@ -42,12 +42,12 @@ def colacao_view() -> rx.Component:
                         "Pincha en este enlace para apoyarme con un colacao"
                     ),
                     ant_components.coffee_icon(),
-                    margin_y="10px"
+                    margin_y="15px"
                 ),
                 href=costants.COLACAO_DONAR
             ),
             rx.heading(
-                "ESCANEA EL CÓDIGO QR PARA UN NESQUIK"
+                "ESCANEA EL CODIGO QR PARA UN NESQUIK"
             ),
             rx.image(
                 src="/Código QR.png",
