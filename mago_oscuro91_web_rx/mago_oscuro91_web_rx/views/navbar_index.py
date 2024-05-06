@@ -24,7 +24,7 @@ def navbar_index() -> rx.Component:
         rx.spacer(),
         rx.link(
             ant_components.codeicon(padding_left="27.5px"),
-            rx.text("Desarollador", size="1", margin_left="3px"),
+            rx.text("Desarrollador", size="1", margin_left="3px"),
             margin="0.3em",
             href="/desarrollador",
             bg=Colors.NEGRO_NAVBAR.value

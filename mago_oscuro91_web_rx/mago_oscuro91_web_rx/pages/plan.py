@@ -21,7 +21,7 @@ def herramienta() -> rx.Component:
     return rx.box(
         dark_mode(),
         banner(),
-        navbar(),
+        navbar("Wake up, Neo..."),
         rx.center( 
             rx.vstack(
                 plan_view(),

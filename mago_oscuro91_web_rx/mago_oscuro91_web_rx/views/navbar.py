@@ -4,7 +4,7 @@ from mago_oscuro91_web_rx.components import ant_components
 import mago_oscuro91_web_rx.constants as costants
 
 
-def navbar() -> rx.Component:
+def navbar(hola_neo) -> rx.Component:
     return rx.hstack(
         rx.hstack(
             rx.link(
@@ -16,13 +16,6 @@ def navbar() -> rx.Component:
                         margin_left="10px",
                         align="right"
                     ),
-                    # rx.text(
-                    #     "MP3",
-                    #     font_family="miltowm_",
-                    #     font_size="90%",
-                    #     size="5",
-                    #     align="left"
-                    # ),
                     ant_components.cascos_icon(),
                     padding_bottom="7px",
                     color="#00CC00"
@@ -37,7 +30,7 @@ def navbar() -> rx.Component:
         rx.spacer(),
         rx.box(
             rx.input(
-                placeholder="Hola neo...",
+                placeholder=hola_neo,
                 size="3",
                 radius="large",
                 color_scheme="green",
@@ -54,15 +47,15 @@ def navbar() -> rx.Component:
                 padding_top="10px"
             ),
             href=costants.GITHUB_DESCARGAR,
-            size="6"
+            size="7"
         ),
         rx.link(
         ant_components.github_icon(
                 margin_y="2.5px",
                 margin_rigth="2.5px",
-                padding_top="10px"
+                padding_top="11px"
             ),
-            href=costants.GITHUB_MAGICMP3,
+            href=costants.PAGINA_REPO,
             size="6"
         ),
         rx.avatar(

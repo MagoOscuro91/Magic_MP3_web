@@ -34,7 +34,6 @@ def author() -> rx.Component:
                         font_size="1em"
                     )   
                 ),
-                # author_buttons(),
                 width="100%",
                 align_items="start"
             ),
@@ -44,23 +43,6 @@ def author() -> rx.Component:
         ),
         style=styles.max_width_style,
         margin_bottom="30px"
-    )
-
-
-def author_buttons() -> rx.Component:
-    return rx.box(
-        button(
-            "YouTube",
-            constants.YOUTUBE_URL
-        ),
-        button(
-            "Twitch",
-            constants.TWITCH_URL
-        ),
-        button(
-            "Discord",
-            constants.DISCORD_URL
-        ),
     )
 
 

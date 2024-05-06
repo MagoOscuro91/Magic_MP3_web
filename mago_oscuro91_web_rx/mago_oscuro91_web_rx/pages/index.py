@@ -20,7 +20,7 @@ def index() -> rx.Component:
         rx.script("document.documentElement.lang='es'"),
         dark_mode(),
         banner(),
-        navbar(),
+        navbar("Hola neo..."),
         rx.center( 
             rx.vstack(
                 index_view_image(),

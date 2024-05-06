@@ -26,35 +26,35 @@ def plan_view() -> rx.Component:
                 size="8"
             ),
             rx.text(
-                "Aprender a programar en un lenguaje de programacion de manera autodidacta y gratis."
+                "Aprender a programar en un lenguaje de programación de manera autodidacta y gratis."
             ),
             rx.heading(
                 "MI PLAN DE ESTUDIO",
                 size="8"
             ),
             rx.text(
-                "Este es el plan de estudio que a mi me a ayudado a de no saber ni ingles practicamente ni de programacion \
-                a diseñar esta web con un framework nuevo como reflex en 6 meses, espero que ati tambien te ayude. Este plan me a servido a mi \
-                pero a ti puede que no. En internet existe informacion mejor seguro, esto es una opinion personal nada mas."
+                "Este es el plan de estudio que a mí me ha ayudado a de no saber ni inglés prácticamente ni de programación \
+                a diseñar esta web con un Framework nuevo como Reflex en 6 meses, espero que a ti también te ayude. Este plan me ha servido a mi \
+                pero a ti puede que no. En internet existe información mejor seguro, esto es una opinión personal, nada más."
             ),
             rx.text(
-                "1 Elige un lenguaje amigable de programacion tranquilamente, investiga en base a lo que quieres acavar creando a corto plazo \
-                por que a programar se aprende programando y peleandote con tu codigo, cuanto mejor base tengas mas facil te sera luego aprender\
-                o programar algo nuevo por lo que siempre recomiendo estudiar un grado medio o superior de desarollo de aplicaciones multiplataforma o similiar.\
-                Pero si es cierto que cada vez mas las empresas buscan gente que demuestre sus habilidades con proyectos, trabajos etc no solo un titulo universitario.\
-                En internet hoy en dia tenemos a personas maravillosas que regalan su tiempo y conocimiento como mouredev, midudev, holamundo (nicolas), etc.\
-                Tenemos la inteligencia artificial que bien utilizada puedes aprender mucho mas facil y rapido sobre la marcha, mi manera de usarla es para ver ejemplos de algoritmos, estructuras,\
-                librerias, etc y si no entiendo una linea le pido que me la explique pero que no me de la solucion.Mi lenguaje fue python por gusto personal y por recomendaciones generales\
-                lo amigable que parecia comparado con c.Tambien recomiendo el curso cs50x de harvad gratis para ir cogiendo base poco a poco."
+                "1 Elige un lenguaje amigable de programación tranquilamente, investiga basándote en lo que quieres acabar creando a corto plazo \
+                por qué a programar se aprende programando y peleándote con tu código, cuanto mejor base tengas más fácil te será luego aprender\
+                o programar algo nuevo por lo que siempre recomiendo estudiar un grado medio o superior de desarrollo de aplicaciones multiplataforma o similar.\
+                Pero si es cierto que cada vez más las empresas buscan gente que demuestre sus habilidades con proyectos, trabajos, etc... no solo un título universitario.\
+                En internet hoy en día tenemos a personas maravillosas que regalan su tiempo y conocimiento como mouredev, midudev, hola mundo (Nicolás), etc.\
+                Tenemos la inteligencia artificial que bien utilizada puedes aprender mucho más fácil y rápido sobre la marcha, mi manera de usarla es para ver ejemplos de algoritmos, estructuras,\
+                librerías, etc y si no entiendo una línea le pido que me la explique, pero que no me dé la solución. Mi lenguaje fue Python por gusto personal y por recomendaciones generales\
+                lo amigable que parecía comparado con c. También recomiendo el curso CS50X de Harvard gratis para ir cogiendo base poco a poco."
             ),
             rx.text(
-                "2 Tenemos el lenguaje despues de haberlo pensado bien en mi caso python, ahora es el momento de buscar contenido gratuito para tu lenguaje."
+                "2 Tenemos el lenguaje después de haberlo pensado bien en mi caso Python, ahora es el momento de buscar contenido gratuito para tu lenguaje."
             ),
             rx.text(
-                "Estos son los cursos en orden que yo ize:"
+                "Estos son los cursos en orden que yo realicé:"
             ),
             rx.text(
-                "* Ultimate python de holamundo (Nicolas) las 5h gratuitas de su canal, con este aprendi de 0 rapido y poco a poco pero no esta completo.",
+                "* Ultímate Python de hola mundo (Nicolás) las 5 h gratuitas de su canal, con este aprendí de 0 rápidos y poco a poco, pero no está completo.",
                 margin_top="20px"
             ),
             rx.video(
@@ -64,7 +64,7 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "* Python para principiantes desde 0 mouredev, con este repase y asente muchos conceptos."
+                "* Python para principiantes desde 0 mouredev, con este repase y asenté muchos conceptos."
             ),
             rx.video(
                 url="https://www.youtube.com/watch?v=Kp4Mvapo5kc&t=21443s&ab_channel=MoureDevbyBraisMoure",
@@ -73,7 +73,7 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "* Python intermedio desde 0 mouredev, con este ya me empeze a soltar ya hacia mis pruebas para ideas de apps que seme ocurrian."
+                "* Python intermedio desde 0 mouredev, con este ya me empecé a soltar y hacía mis pruebas para ideas de apps que seme ocurrían."
             ),
             rx.video(
                 url="https://www.youtube.com/watch?v=TbcEqkabAWU&t=2s&ab_channel=MoureDevbyBraisMoure",
@@ -82,8 +82,8 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "* Python para backend desde 0 mouredev, en este punto me comfie pare un tiempo por navidad dejando el curso a medias cuando retome\
-                 me di cuenta que lo tenia que repasar y aun no lo e acavado."
+                "* Python para back-end desde 0 mouredev, en este punto me confíe pare un tiempo por Navidad dejando el curso a medias cuando retome\
+                 me di cuenta de que lo tenía que repasar y aún no lo he acabado."
             ),
             rx.video(
                 url="https://www.youtube.com/watch?v=_y9qQZXE24A&ab_channel=MoureDevbyBraisMoure",
@@ -92,7 +92,7 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "* Python web mouredev 1h, cuando retome el curso anterior me cruze con este video que llamo mi atencion y me gusto mucho"
+                "* Python web mouredev 1 h, cuando retome el curso anterior me cruce con este video que llamo mi atención y me gusto mucho"
             ),
             rx.video(
                 url="https://www.youtube.com/watch?v=2u7JlBEavx0&t=2773s&ab_channel=MoureDevbyBraisMoure",
@@ -101,9 +101,9 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "* Python web mouredev 3h, aDEViento_web me toco pelearme con la version del framework y me acostumbre a entrar documentacion a buscar lo que \
-                necesitaba.Me puse a copiar una web de una empresa de mi pueblo como trabajo final del curso cuando me cruze con la hackaton y este concurso de reflex\
-                 al que me presento con esta web y mucha ilusion no de ganar (que tambien) si no de compartir algo desarrollado por mi que ayude a alguien."
+                "* Python web mouredev 3 h, aDEViento_web me toco pelearme con la versión del Framework y me acostumbré a entrar documentación a buscar lo que \
+                necesitaba.Me puse a copiar una web de una empresa de mi pueblo como trabajo final del curso cuando me crucé con la hackaton y este concurso de Reflex\
+                 al que me presento con esta web y mucha ilusión no de ganar (que también) sino de compartir algo desarrollado por mí que ayude a alguien."
             ),
             rx.video(
                 url="https://www.youtube.com/watch?v=h8Tn0ITRoQs&t=1s&ab_channel=MoureDevTV",
@@ -112,23 +112,22 @@ def plan_view() -> rx.Component:
                 margin_bottom="25px"
             ),
             rx.text(
-                "3 Necesitas un horario y ser disciplinado con el, al principio al estar motivados vamos a estar bien pero la motivacion no dura eternamente la disciplina si.\
-                Como estoy acostumbrado a trabajar 8h 5 dias a la semana, decidi usar ese tiempo para ocuparme de las tareas del hogar, estudiar, entrenar y programar con la idea de\
-                acavar programando esas 8h en mi teletrabajo durmiendo 8h y en las 8h restantes ocuparme de tareas del hogar ejercicio y ocio.\
-                El dia tiene 24h, 8h para el grupo anterior, 8h son sagradas para dormir necesitas descansar para tener mejor rendimiento al dia siguiente, 8h de tiempo libre es super importante\
-                desconectar el cerebro, es un musculo que tambien se cansa y tenemos que cuidar su salud.\
-                El dia que no te apetezca que va a pasar te pones a repasar videos de cursos o material ya echo tranquilamente y sin agobios, el caso es ser disciplinado con tu horario."
+                "3 Necesitas un horario y ser disciplinado con él, al principio al estar motivados vamos a estar bien, pero la motivación no dura eternamente la disciplina sí.\
+                Como estoy acostumbrado a trabajar 8 h 5 días a la semana, decidí usar ese tiempo para ocuparme de las tareas del hogar, estudiar, entrenar y programar con la idea de\
+                acavar programando esas 8 h en mi teletrabajo durmiendo 8 h y en las 8 h restantes ocuparme de tareas del hogar, ejercicio y ocio.\
+                El día tiene 24 h, 8 h para el grupo anterior, 8 h son sagradas para dormir, necesitas descansar para tener mejor rendimiento al día siguiente, 8 h de tiempo libre es superimportante\
+                desconectar el cerebro, es un músculo que también se cansa y tenemos que cuidar su salud.\
+                El día que no te apetezca que va a pasar te pones a repasar videos de cursos o material ya echo, tranquilamente y sin agobios, el caso es ser disciplinado con tu horario."
             ),
             rx.text(
                 "4 Cuidar nuestro cuerpo, al pasar tantas horas sentado nuestro cuerpo se deteriora.\
                 Mantener un orden en casa y zona de trabajo limpia.\
-                Administra bien tu tiempo para cambiarlo por sabiduria salud o dinero lo que mas necesites ahora.\
-                Come bien, duerme 8h az 1h de ejercicio 5 dias a la semana\
-                3h o 5h de ocio diarias y 2h o 4h tareas en general.\
-                Cuidar nuestro estado emocional y mental tambien es super importante, aveces sentiras frustracion o sinplemente tendras\
-                un mal dia.No pasa nada todos tenemos dias mejores dias peores tomate un colacao ponte tu cancion favorita y motivate.\
-                Aqui te dejo una lista de Spotify para programar que ami me anima en estos momentos espero que te guste.En tener tiempo\
-                añadire todas las canciones."
+                Administra bien tu tiempo para cambiarlo por sabiduría, salud o dinero lo que más necesites ahora.\
+                Come bien, duerme 8, haz 1 h de ejercicio, 5 días a la semana, 3 h o 5 h de ocio diarias y 2 h o 4 h tareas en general.\
+                Cuidar nuestro estado emocional y mental también es superimportante, a veces sentirás frustración o simplemente tendrás\
+                un mal día. No pasa nada todos tenemos días mejores días peores tómate un colacao ponte tu canción favorita y motívate.\
+                Aquí te dejo una lista de Spotify para programar que ami me anima en estos momentos, espero que te guste. En tener tiempo\
+                añadiré todas las canciones."
             ),
             rx.link(
                 "Lista Spotify By: jona_THAI para programar Metal_python  ",
@@ -136,28 +135,8 @@ def plan_view() -> rx.Component:
                 href="https://open.spotify.com/playlist/0IuAVLwz2i6TzxiU3W9jK4?si=bcbe6c399cea4fb4"
             ),
             rx.text(
-                "5 Proximamente..."
+                "5 Próximamente..."
             )
-            # rx.image(
-            #     src="/herramienta_magicmp3_foto.png",
-            #     alt="La imagen de la herramienta magicmp3 ",
-            #     border_radius="15px 50px",
-            #     border="5px solid #555"
-            # ),
-            # rx.link(
-            #     'Descarga desde github aqui  ',
-            #     ant_components.download_icon(),
-            #     href=costants.GITHUB_DESCARGAR
-            # ),
-            # rx.link(
-            #     'Codigo en github aqui  ',
-            #     ant_components.codeicon(),
-            #     href=costants.GITHUB_MAGICMP3
-            # ),
-            # rx.text(
-            #     "Un dia creando una app de escritorio quise personalizar la parte frontend, buscando sonidos para mis botones\
-            #     seme ocurrio la idea de desarrollar algo como ejercicio que me ayudara en este campo para mi comodidad."
-            # ),
         ),
         padding_top="15px",
         style=styles.max_width_style
