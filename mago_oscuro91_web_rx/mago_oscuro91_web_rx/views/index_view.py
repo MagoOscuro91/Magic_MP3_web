@@ -17,7 +17,8 @@ def index_view_image() -> rx.Component:
         rx.heading(
             "MAGIC WEB REFLEX",
             font_size="250%",
-            margin_y="35px",
+            margin_bottom="35px",
+            margin_top="50px",
             size="8"
         ),
         rx.text(

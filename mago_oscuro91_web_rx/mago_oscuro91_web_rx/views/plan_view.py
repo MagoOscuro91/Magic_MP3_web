@@ -56,7 +56,7 @@ def plan_view() -> rx.Component:
             rx.text(
                 "1 Elige un lenguaje amigable de programación tranquilamente, investiga basándote en lo que quieres acabar creando a corto plazo \
                 por qué a programar se aprende programando y peleándote con tu código, cuanto mejor base tengas más fácil te será luego aprender\
-                o programar algo nuevo por lo que siempre recomiendo estudiar un grado medio o superior de desarrollo de aplicaciones multiplataforma o similar.\
+                o programar algo nuevo por lo que siempre recomiendo estudiar un grado superior de desarrollo de aplicaciones multiplataforma o similar.\
                 Pero si es cierto que cada vez más las empresas buscan gente que demuestre sus habilidades con proyectos, trabajos, etc... no solo un título universitario.\
                 En internet hoy en día tenemos a personas maravillosas que regalan su tiempo y conocimiento como mouredev, midudev, hola mundo (Nicolás), etc.\
                 Tenemos la inteligencia artificial que bien utilizada puedes aprender mucho más fácil y rápido sobre la marcha, mi manera de usarla es para ver ejemplos de algoritmos, estructuras,\
@@ -150,15 +150,21 @@ def plan_view() -> rx.Component:
                 Come bien, duerme 8, haz 1 h de ejercicio, 5 días a la semana, 3 h o 5 h de ocio diarias y 2 h o 4 h tareas en general.\
                 Cuidar nuestro estado emocional y mental también es superimportante, a veces sentirás frustración o simplemente tendrás\
                 un mal día. No pasa nada todos tenemos días mejores días peores tómate un colacao ponte tu canción favorita y motívate.\
-                Aquí te dejo una lista de Spotify para programar que ami me anima en estos momentos, espero que te guste. En tener tiempo\
+                Aquí te dejo unas listas de Spotify para programar que ami me animan en estos momentos, espero que te gusten. En tener tiempo\
                 añadiré todas las canciones.",
                 margin_top="10px"
             ),
             rx.link(
-                "Lista Spotify By: jona_THAI para programar Metal_python  ",
+                "Lista Spotify By: jona_THAI para programar Metal_Python.py  ",
                 ant_components.spotify_icon(),
                 is_external=True,
                 href=costants.METAL_PYTHON
+            ),
+            rx.link(
+                "Lista Spotify By: jona_THAI para programar Save_ROOM.py  ",
+                ant_components.spotify_icon(),
+                is_external=True,
+                href=costants.SAVE_THEME_SPOTIFY
             ),
             rx.text(
                 "5 Próximamente...",

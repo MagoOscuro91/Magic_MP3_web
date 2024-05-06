@@ -43,35 +43,38 @@ def navbar(hola_neo) -> rx.Component:
         ),
         rx.spacer(),
         rx.link(
-        ant_components.download_icon(
+            ant_components.download_icon(
                 margin_y="2.5px",
                 margin_rigt="2.5px",
                 padding_top="10px"
             ),
-            href=costants.GITHUB_MAGICMP3,
-            is_external=True,
+            href=costants.GITHUB_DESCARGAR,
             size="7"
         ),
         rx.link(
-        ant_components.github_icon(
+            ant_components.github_icon(
                 margin_y="2.5px",
-                margin_rigth="2.5px",
+                margin_rigth="1.5px",
                 padding_top="11px"
             ),
             href=costants.PAGINA_REPO,
             is_external=True,
             size="6"
         ),
-        rx.avatar(
-            name="MagoOscuro91",
-            size="3",
-            src="/mago_toon_red_eyes.jpg",
-            bg="",
-            margin_y="5px",
-            margin_right="5px",
-            margin_left="5px",
-            border="4px",
-            border_color="#00CC00"
+        rx.link(
+            rx.avatar(
+                name="MagoOscuro91",
+                size="3",
+                src="/matrix_mp3_web.png",
+                bg="",
+                margin_y="5px",
+                margin_right="6px",
+                margin_left="1px",
+                border="4px",
+                border_color="#00CC00"
+            ),
+            is_external=True,
+            href=costants.GITHUB_MAGICMP3
         ),
         bg=Colors.NEGRO_NAVBAR.value,
         position="sticky",

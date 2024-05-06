@@ -14,7 +14,7 @@ def author() -> rx.Component:
             rx.avatar(
                 name="MagoOscuro91",
                 size="7",
-                src="/mago_toon_red_eyes.jpg",
+                src="/mago_github.png",
                 bg="",
                 padding="2px",
                 border="4px",

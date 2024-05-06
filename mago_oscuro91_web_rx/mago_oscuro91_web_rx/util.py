@@ -3,6 +3,15 @@
 _meta = [
     {
         "name": "keywords", "content": "herramienta, mp3, mp4, clip, MP3, MP4, magicmp3, descargar, magic, magic_mp3, sonido, sonidos, archivos, boton, botones, gratis, videos, frontend, diseño, web, interfaz"
+    },
+    {
+        "name": "og:type", "content": "website"
+    },
+    {
+        "name": "og:title", "content": "herramienta, mp3, mp4, clip, MP3, MP4, magicmp3, descargar, magic, magic_mp3, sonido, sonidos, archivos, boton, botones, gratis, videos, frontend, diseño, web, interfaz"
+    },
+    {
+        "name": "og:description", "content": "herramienta, mp3, mp4, clip, MP3, MP4, magicmp3, descargar, magic, magic_mp3, sonido, sonidos, archivos, boton, botones, gratis, videos, frontend, diseño, web, interfaz"
     }
 ]
 

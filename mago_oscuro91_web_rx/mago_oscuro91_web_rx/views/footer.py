@@ -18,6 +18,7 @@ def footer() -> rx.Component:
                     font_family="nuttynoisses"
                 ),
                 href=constants.MY_GITHUB,
+                is_external=True,
                 font_size="1.5em",
                 margin_bottom=Size.ZERO.value
             ),
