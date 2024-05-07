@@ -6,7 +6,7 @@ Todos los assets/recursos se encuentran en internet, pero pueden contener derech
 También debes tener en cuenta mi nivel actual (Estudiante) y el tiempo de desarrollo para este proyecto (6 días).
  ## Why Magic MP3 web REFLEX
  Desarrollado para los diseñadores "Front end" en general y para todos.
-Descarga sonidos mp3 o videos mp4 de 1 segundo o mas con la herramienta Python "magic_mp3" (temporalmente) https://github.com/MagoOscuro91/magic_mp3, de un punto a otro para tu uso personal no me hago responsable de cualquier uso indebido de la herramienta.
+Descarga sonidos mp3 o videos mp4 de 1 segundo o mas con la herramienta Python "magic_mp3" https://github.com/MagoOscuro91/magic_mp3, de un punto a otro para tu uso personal no me hago responsable de cualquier uso indebido de la herramienta.
 No olvides que es una versión gratis en modo "2ºTest".
 Quieres que tu botón suene como el meme mas popular hoy?
 ¡Si esta en YouTube es posible! con Magic_MP3 rápido sencillo y gratis.
