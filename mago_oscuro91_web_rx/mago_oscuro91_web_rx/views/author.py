@@ -28,7 +28,7 @@ def author() -> rx.Component:
                     "En internet me conocen como ",
                     rx.link(
                         "@MagoOscuro91",
-                        href=constants.MI_YOUTUBE,
+                        href=constants.MY_GITHUB,
                         is_external=True,
                         font_size="1em"
                     )   

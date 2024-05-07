@@ -17,10 +17,16 @@ def index_view_image() -> rx.Component:
         rx.heading(
             "MAGIC WEB REFLEX",
             font_size="250%",
-            margin_bottom="35px",
-            margin_top="50px",
+            margin_bottom="10px",
+            margin_top="40px",
             size="8"
         ),
+        rx.link(
+                'Built with REFLEX',
+                is_external=True,
+                href=costants.REFLEX_URL,
+                margin_bottom="10px"
+            ),
         rx.text(
             "Creado con REFLEX! En 6 días y un solo lenguaje de programación PYTHON!.",
             "Tanto la web como la app están en versión test y son de código abierto, ten en cuenta esto por errores actuales\
@@ -50,7 +56,7 @@ def index_view_image_1() -> rx.Component:
         rx.heading(
             "HERRAMIENTA",
             margin_top="5px",
-            margin_bottom="15px",
+            margin_bottom="25px",
             size="8"
         ),
         rx.image(
@@ -88,8 +94,8 @@ def index_view_image_1() -> rx.Component:
         ),
         rx.heading(
             "PLAN DE ESTUDIO",
-            margin_top="25px",
-            margin_bottom="15px",
+            margin_top="35px",
+            margin_bottom="25px",
             size="8"
         ),
         rx.image(
@@ -112,8 +118,8 @@ def index_view_image_1() -> rx.Component:
         ),
         rx.heading(
             "DESARROLLADOR",
-            margin_top="25px",
-            margin_bottom="15px",
+            margin_top="35px",
+            margin_bottom="25px",
             size="8"
         ),
         rx.image(
@@ -135,8 +141,8 @@ def index_view_image_1() -> rx.Component:
         ),
         rx.heading(
             "COLACAO",
-            margin_top="25px",
-            margin_bottom="15px",
+            margin_top="35px",
+            margin_bottom="25px",
             size="8"
         ),
         rx.image(

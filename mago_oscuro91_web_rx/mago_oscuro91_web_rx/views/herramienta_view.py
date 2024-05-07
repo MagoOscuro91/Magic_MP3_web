@@ -100,7 +100,7 @@ def herramienta_view() -> rx.Component:
             rx.video(
                 url=costants.TUTORIAL_MAGICMP3,
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             )
         ),

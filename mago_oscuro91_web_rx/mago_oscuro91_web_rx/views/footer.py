@@ -17,7 +17,7 @@ def footer() -> rx.Component:
                     "MagoOscuro91",
                     font_family="nuttynoisses"
                 ),
-                href=constants.MY_GITHUB,
+                href=constants.MI_YOUTUBE,
                 is_external=True,
                 font_size="1.5em",
                 margin_bottom=Size.ZERO.value

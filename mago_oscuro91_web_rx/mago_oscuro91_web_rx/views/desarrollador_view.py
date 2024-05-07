@@ -66,7 +66,7 @@ def desarrollador_view3() -> rx.Component:
             rx.video(
                 url=costants.TRABAJO_REFLEX_3H_PARTE_1,
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(

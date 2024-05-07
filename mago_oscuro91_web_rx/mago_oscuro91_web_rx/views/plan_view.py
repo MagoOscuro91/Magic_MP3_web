@@ -78,7 +78,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=tQZy0U8s9LY&t=23s&ab_channel=HolaMundo",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
@@ -88,7 +88,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=Kp4Mvapo5kc&t=21443s&ab_channel=MoureDevbyBraisMoure",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
@@ -98,7 +98,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=TbcEqkabAWU&t=2s&ab_channel=MoureDevbyBraisMoure",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
@@ -109,7 +109,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=_y9qQZXE24A&ab_channel=MoureDevbyBraisMoure",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
@@ -119,7 +119,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=2u7JlBEavx0&t=2773s&ab_channel=MoureDevbyBraisMoure",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
@@ -131,7 +131,7 @@ def plan_view() -> rx.Component:
             rx.video(
                 url="https://www.youtube.com/watch?v=h8Tn0ITRoQs&t=1s&ab_channel=MoureDevTV",
                 width="100%",
-                height="auto",
+                height="450px",
                 margin_bottom="25px"
             ),
             rx.text(
