@@ -1,7 +1,7 @@
 # Magic MP3 web REFLEX
 ![Top Language](https://img.shields.io/github/languages/top/MagoOscuro91/Magic_MP3_web?style=for-the-badge&color=%2300AABB) ![Forks](https://img.shields.io/github/forks/MagoOscuro91/Magic_MP3_web?style=for-the-badge&color=%23AA0067) ![Stars](https://img.shields.io/github/stars/MagoOscuro91/Magic_MP3_web?style=for-the-badge&color=%23ffff00) 
 ## About
-En este repositorio se encuentra el código de la web magic web reflex creado para el concurso "Hackathon 2024 #HolaMundoDay" desarrollo web con REFLEX y Python.
+En este repositorio se encuentra el código de la web magic web reflex creado para el concurso "Hackathon 2024 #HolaMundoDay" desarrollo web con REFLEX y Python https://holamundo.day/#hackathon.
 Todos los assets/recursos se encuentran en internet, pero pueden contener derechos de autor utilízalos con responsabilidad y solo para uso personal/educativo.
 También debes tener en cuenta mi nivel actual (Estudiante) y el tiempo de desarrollo para este proyecto (6 días).
  ## Why Magic MP3 web REFLEX
